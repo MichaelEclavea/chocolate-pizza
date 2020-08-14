@@ -169,3 +169,9 @@ footer span{
     color: #808080;
     line-height: 2em;
 }
+
+h5{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
