@@ -5,6 +5,7 @@
     <title>Chocolate Pizza</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,11 +15,11 @@
 
                 <div id="top-left">
 
-                    <img src="img/logo.png" alt="logo-icon">
+                    <img id="top-image" src="img/logo.png" alt="logo-icon">
                     <div id="title-head">
-                    <h2>Delicious</h2>
-                    <p>THE BEST FOOD BLOG ON THE WEB</p>
-                </div>                
+                        <h2>Delicious</h2>
+                        <p>THE BEST FOOD BLOG ON THE WEB</p>
+                    </div>
                 </div>
 
                 <div id="icons">
@@ -33,20 +34,14 @@
                 </div>
 
             </div>
-
-            <div id="hr">
-                <p>\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\</p>
+            <div class="bar">
+                <p>.</p>
             </div>
-
             <div>
                 <div id="title">
                     <h1>Chocolate Pizza</h1>
-                    <p>POSTED ON 15 DEC 2013/DESSERTS</p>
+                    <p>POSTED ON 15 DEC 2013/DESSERTS <span id="printer"><img src="img/print-icon.png" alt="print">  PRINT</img></span></p>
                 </div>
-                <div>
-                    <img src="img/print-icon.png" alt="print">
-                </div>
-
             </div>
     </header>
     <main>
@@ -60,20 +55,20 @@
                 Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat,
                 stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside
                 and let cool completely.</p>
-                <br>
-                
-                    <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely
+            <br>
+
+            <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely
                 dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and
                 wait until the fig mixture is cooled.</p>
 
-<br>
-                <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
+            <br>
+            <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
                 instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and
                 the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass
                 tupperware. Freeze for at least two hours before serving.</p>
         </div>
 
-<br>
+        <br>
         <div id="list-section">
             <ul id="list1">
                 <li><input type="checkbox"> 1 1/2 cups mil</li>
@@ -82,9 +77,9 @@
                 <li><input type="checkbox"> 1/2 cup brown sugar</li>
                 <li><input type="checkbox"> 2-4 tbsp water</li>
             </ul>
-            <div ></div>
+            <div></div>
             <ul id="list2">
-                <li><input type="checkbox">  1 1/2 cups heavy cream</li>
+                <li><input type="checkbox"> 1 1/2 cups heavy cream</li>
                 <li class="line-text"><input type="checkbox"> 4/3 granulated sugar </li>
                 <li class="line-text"><input type="checkbox"> 2 egg yolks</li>
                 <li><input type="checkbox"> 1 lemon juiced</li>
@@ -92,27 +87,36 @@
                 <li><input type="checkbox"> 1 cup honey roasted pecans, roughly</li>
                 <li>chopped</li>
             </ul>
-            
-        </div>
-        <hr>
 
+        </div>
+        <div class="bar">
+            <p>.</p>
+        </div>
     </main>
     <footer>
         <div id="bottom-container">
             <div>
                 <img id="van-img" src="img/van-pic.png" alt="van-pic">
             </div>
-            <div>
+            <span>
                 <p>Vanessa Stevenson</p>
                 <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's</p>
                 <p>pretty much who I am.</p>
-            </div>
+            </span>
             <span id="btn">
                 <button type="submit">SHARE RECIPE</button>
             </span>
         </div>
-        <hr>
     </footer>
+    <div class="hr-theme-slash-2">
+        <div class="hr-line"></div>
+        <div class="hr-icon"><img src="img/small-logo.png" class="material-icons"/></i></div>
+        <div class="hr-line"></div>
+    </div>    
+    <div id="final-text">
+            <p>Delicious &#169; 2013 All Rights Reserved. </p>
+            <p>Proudly Published with Ghost 2013. </p>
+    </div>
 </body>
 
 </html>
